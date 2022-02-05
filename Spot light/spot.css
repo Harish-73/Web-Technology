@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(2, 2, 2);
+    box-sizing: border-box;
+    color: goldenrod;
+}
+h1 {
+    align-items: center;
+    border-bottom: 2px solid goldenrod;
+    margin-left: 640px;
+    margin-right: 670px;
+}		
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: none;
+    margin-top: 3em;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-image: url('https://www.kpriet.ac.in/asset/frontend/images/logo/logo-footer-color.png');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(10%);
+    background-image: url('KPR\ Home.png');
+    
+}
+.mouse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-image: url('https://www.kpriet.ac.in/asset/frontend/images/logo/logo-footer-color.png');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: circle(100px  at 0, 0);
+    background-image: url('KPR\ Home.png');
+}
