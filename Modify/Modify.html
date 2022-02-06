@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Image alignment</title>
+    
+        <script language='JavaScript' type='text/JavaScript'>
+    
+            function move_img(str) {
+                document.getElementById('i1').align=str;
+            }
+            function change_txt() {
+                document.getElementById('message').innerHTML="The image cannot be loaded";
+            }
+            function change_size() {
+                document.getElementById("i1").style.height = "200px"; 
+                document.getElementById("i1").style.width = "300px";
+                document.getElementById("i1").style.border = "thick solid #0000FF";
+                document.getElementById("i1").style.borderWidth ="3px";
+            }
+        </script>
+
+    </head>
+    <body>
+        <img style='border:1px solid #000000' src="https://kpriet.ac.in/asset/frontend/images/logo/logo.png" id='i1'>
+        <br><br>
+        <h1 id="message">This is logo image</h1>
+        <br><br><br><br>
+        
+        <input type=button onClick=change_txt() value='change text'>
+        <input type=button onClick=change_size() value='change size'>
+        <input type=button onClick=move_img("right") value='Right'>
+
+        <br><br>
+    </body>
+</html>
