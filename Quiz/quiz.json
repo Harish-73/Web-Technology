@@ -1,0 +1,30 @@
+[
+    {
+        "question": "Which of the following tags do not require a terminator? ",
+        "choices": ["u","br","b","none of the above"],
+        "correctAnswer": 1
+    },
+    {
+        "question": " For a particular font its size attribute can be an absolute value ranging from",
+        "choices": ["1-10","1-9","1-8","1-7"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "When a user views a page containing JavaScript program, Which machines actually executes the program? ",
+        "choices": ["User machine running a web browser","The web server","The central server","Application server"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is not JavaScript Data Types?",
+        "choices": ["Undefined","Number","Boolean","Float"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which of the following statements is true regarding HTTP?",
+        "choices": ["Web browsers use only HTTP as a communication protocol with servers",
+            "It does not maintain any connection information on previous transactions",
+            "It is designed to route information based on content",
+            "It refers to resources using their Universal Resource Identifier (URI)"],
+        "correctAnswer": 1
+    }
+]
